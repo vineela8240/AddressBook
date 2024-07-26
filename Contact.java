@@ -1,4 +1,4 @@
-public class Contracts {
+public class Contact {
     public String FirstName;
     public String LastName;
     public String Address;
@@ -72,7 +72,7 @@ public class Contracts {
         Zip = zip;
     }
 
-    public Contracts(String FirstName, String LastName, String Address, String City, String State, String Zip, String PhoneNumber, String Email){
+    public Contact(String FirstName, String LastName, String Address, String City, String State, String Zip, String PhoneNumber, String Email){
         this.FirstName=FirstName;
         this.LastName=LastName;
         this.Address=Address;
